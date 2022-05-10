@@ -70,9 +70,18 @@ body{
     margin: auto;
 }
 .sections{
-    margin-left: 112px;
-    margin-right: 112px;
+    margin-left: 8%;
+    margin-right: 8%;
 }
+.starting_page{
+    width: 1440px;
+    height: 866px;
+    left: 0;
+    top: 0;
+    background-image: url(".././images/Background.png");
+    margin: auto;
+}
+
 .navbar{
     display: flex;
     align-items: center;
@@ -208,7 +217,7 @@ nav ul li a{
     /*margin-top: 24px;*/
     margin-right:64px;
 }
-.tailor_made_features{
+.tailor_made_features_header_and_description{
     position: static;
     text-align: center;
     color: #111827;
@@ -221,12 +230,13 @@ h3{
     line-height: 60px;
     letter-spacing: -0.025em;
 }
-.tailor_made_features h3{
+
+.tailor_made_features_header_and_description h3{
 
     margin: 8px 0px;
 }
 
-.tailor_made_features p{
+.tailor_made_features_header_and_description p{
 
     font-weight: 400;
     font-size: 18px;
@@ -275,6 +285,12 @@ h3{
     width: 1440px;
     height: 892px;
     background: #D5FAFC;
+    display: flex;
+    justify-content: space-between;
+}
+.realStories_col-1{
+    /*position: relative;*/
+    flex-basis: 50%;
 }
 .quote{
     position: absolute;
@@ -284,8 +300,197 @@ h3{
 
 }
 .realStories h3{
-    position: absolute;
+    /*position: absolute;*/
     top: 120px;
     left: 216px;
+    padding-left: 30%;
+    padding-top: 17%;
 }
+.hubSpot_box{
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+    height: 44%;
+    margin-left: 45%;
+    margin-top: 8%;
+    /*position: absolute;*/
+    /*left:320px;*/
+    /*top: 340px;*/
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px -2px rgba(17, 24, 39, 0.1), 0 2px 4px -2px rgba(17, 24, 39, 0.06);
+    border-radius: 8px;
+}
+
+.realStories_col-2{
+    flex-basis: 50%;
+}
+
+.airbnb_box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    width: 73%;
+    height: 38%;
+    margin-top: 29%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px -2px rgba(17, 24, 39, 0.1), 0px 2px 4px -2px rgba(17, 24, 39, 0.06);
+    border-radius: 8px;
+}
+
+.strapi{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    width: 56%;
+    height: 29%;
+    margin-top:4%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px -2px rgba(17, 24, 39, 0.1), 0px 2px 4px -2px rgba(17, 24, 39, 0.06);
+    border-radius: 8px;
+}
+.realStories p{
+    /*position: absolute;*/
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #111827;
+    /*flex: none;*/
+    /*order: 1;*/
+    /*align-self: stretch;*/
+    /*flex-grow: 0;*/
+    margin: 8px 0px;
+}
+.getInspired{
+    padding-top: 1% ;
+    padding-left: 30%;
+}
+.small_quote{
+    margin-top: 6%;
+    margin-left: 6%;
+    height: 13px;
+    width: 15.929831504821777px;
+
+}
+
+.realStories_logo_img{
+    margin-top: 8%;
+    margin-left: 8%;
+    height: 32.021488189697266px;
+    width: 111.64148712158203px;
+
+}
+
+.realStories_description_text{
+    padding-left: 16%;
+    margin-bottom: 3%;
+    /*margin-top: -3%;*/
+    padding-right: 10%;
+}
+.realStories h5{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    padding-left: 16%;
+    margin-top: 3%;
+}
+.realStories small{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B7280;
+    padding-left: 16%;
+}
+.achievement{
+    width: 1440px;
+    height: 344px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.achievement_left {
+    flex-basis:50%;
+}
+.achievement_left h3{
+    margin-left: 14%;
+    margin-top: 10%;
+}
+.achievement_left  p{
+    margin-left: 14%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.achievement_right{
+    flex-basis:50%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15%;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.achievement_right_col-1{
+flex-basis: 50%;
+}
+.achievement_right_col-2{
+    flex-basis: 50%;
+}
+.header_and_paragraph{
+    margin-top: 5%;
+    margin-left: 8%;
+}
+.achievement_right h4{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+}
+.achievement_right p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.achievement_part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 17%;
+
+}
+.achievement_part img{
+    width: 10%;
+    height: 15%;
+}
+.integration_tools{
+    width: 1440px;
+    height: 431px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.integration_tools_left {
+    flex-basis:50%;
+}
+.integration_tools_right{
+    flex-basis:50%;
+}
+/*.integration_tools_left h3{*/
+/*    margin-left: 7%;*/
+/*    margin-top: 2%*/
+/*}*/
+.integration_tools_left  p{
+    margin-left: 14%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.manage_projects{
+    width: 1440px;
+    height: 558px;
+    background-color: #1DB5BE;
+}
+.footer{
+    width: 1440px;
+    height: 288px;
+    background-color: #000000;
+}
+
 
