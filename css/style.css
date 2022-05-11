@@ -73,15 +73,6 @@ body{
     margin-left: 8%;
     margin-right: 8%;
 }
-.starting_page{
-    width: 1440px;
-    height: 866px;
-    left: 0;
-    top: 0;
-    background-image: url(".././images/Background.png");
-    margin: auto;
-}
-
 .navbar{
     display: flex;
     align-items: center;
@@ -284,7 +275,7 @@ h3{
     display: flex;
     justify-content: space-between;
 }
-.realStories_col-1{
+.realStories_left{
     /*position: relative;*/
     flex-basis: 50%;
 }
@@ -316,7 +307,7 @@ h3{
     border-radius: 8px;
 }
 
-.realStories_col-2{
+.realStories_right{
     flex-basis: 50%;
 }
 
@@ -613,4 +604,8 @@ flex-basis: 50%;
 /*    border-radius: 13%;*/
 /*}*/
 
+@media (max-width: 768px) and (min-width: 376px ){
 
+
+
+}
