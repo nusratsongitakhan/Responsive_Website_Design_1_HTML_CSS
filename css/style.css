@@ -497,21 +497,22 @@ flex-basis: 50%;
     margin-left: 8%;
     margin-top: 6.5%;
     flex-basis: 50%;
+    margin-right: 7%;
 }
 
 .manage_projects_right{
     flex-basis: 50%;
-    margin-right: 8%;
+    /*margin-right: 8%;*/
     display: flex;
     margin-right: 2%;
 }
 .manage_projects_right_2nd_phone_img{
     margin-top: 27%;
     margin-right: 5%;
-    width: 46%;
+    width: 50%;
 }
 .manage_projects_right_1st_phone_img{
-    width: 46%;
+    width: 50%;
     height: 80%;
 }
 .footer{
@@ -524,14 +525,44 @@ flex-basis: 50%;
 
 .footer_left{
     margin-left: 8%;
-    background-color: #7C3AED;
     flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.footer_left img{
+    width: 5%;
+    margin-bottom: 4%;
+}
+.footer_left p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D1D5DB;
+    margin-top: 1%;
+}
+.download_and_license{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+}
+.footer_nav{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+}
+.footer_left a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-bottom: 4%;
 }
 
 .footer_right{
-    background-color: saddlebrown;
     flex-basis: 50%;
     margin-right: 8%;
+    display: flex;
+    justify-content: flex-end;
 }
 .get_the_app_header_and_buttons{
     margin-top: 11%;
@@ -549,11 +580,22 @@ flex-basis: 50%;
 .footer_right .get_the_app_buttons{
     flex-direction: column;
 }
+.footer_right .get_the_app_buttons img{
+    margin-bottom: 8%;
+}
 .get_the_app_header h5{
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
 }
+.footer .get_the_app_header{
+    margin-bottom: 8%;
+}
+
+.footer_right .get_the_app_header h5 {
+    color: #FFFFFF;
+}
+
 
 /*.googlePlay_btn{*/
 /*    width: 20%;*/
