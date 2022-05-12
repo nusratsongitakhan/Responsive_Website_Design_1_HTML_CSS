@@ -56,17 +56,22 @@ table {
 
 }
 body{
-    margin-left: 5%;
-    margin-right: 5%;
+    /*margin-left: 5%;*/
+    /*margin-right: 5%;*/
     font-family: 'Inter', serif;
     font-style: normal;
 }
 .container{
     width: 1440px;
     height: 866px;
-    left: 0;
-    top: 0;
+    margin: auto;
+}
+.first_page{
+    width: 1440px;
+    height: 866px;
     background-image: url(".././images/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: auto;
 }
 .sections{
@@ -185,12 +190,12 @@ nav ul li a{
 }
 .mobileImg{
     position: static;
-    width: 320px;
+    width: 75%;
     /*width: 380px;*/
-    height: 640px;
+    height: 83%;
     /*height: 700px;*/
-    left: 84px;
-    margin-top:152px;
+    /*left: 84px;*/
+    margin-top:21%;
     margin-bottom: 16px;
 }
 .logo_container{
@@ -587,6 +592,18 @@ flex-basis: 50%;
     color: #FFFFFF;
 }
 
+@media only screen and (max-width: 768px) and (min-width:376px){
+
+.manage_projects{
+    background-color: darkred;
+}
+}
+
+
+@media only screen and (max-width: 375px) {
+
+}
+
 
 /*.googlePlay_btn{*/
 /*    width: 20%;*/
@@ -603,9 +620,3 @@ flex-basis: 50%;
 /*    height: 8%;*/
 /*    border-radius: 13%;*/
 /*}*/
-
-@media (max-width: 768px) and (min-width: 376px ){
-
-
-
-}
