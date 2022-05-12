@@ -213,6 +213,9 @@ nav ul li a{
     /*margin-top: 24px;*/
     margin-right:64px;
 }
+.airbnb_and_hubspot_and_google_and_microsoft{
+   display: flex;
+}
 .tailor_made_features_header_and_description{
     position: static;
     text-align: center;
@@ -594,9 +597,76 @@ flex-basis: 50%;
 
 @media only screen and (max-width: 768px) and (min-width:376px){
 
-.manage_projects{
-    background-color: darkred;
-}
+    .first_page{
+        height: 1240px;
+        width: 100%;
+    }
+
+    .headerAndPhoneImg{
+        flex-direction: column;
+        margin-top: 15%;
+    }
+
+    .headerAndPhoneImg h2 {
+        margin-top: -5%;
+        margin-right: 22%;
+    }
+
+    .mobileImg {
+        width: 28%;
+        height: 3%;
+        margin-top: 3%;
+    }
+
+    .mobileImgDiv{
+        text-align: center;
+    }
+
+    .logo_container{
+        height: 175px;
+        flex-direction: column;
+        row-gap: 25%;
+        margin-left: 15%;
+    }
+
+  .sections{
+      margin-right: 4%;
+      margin-left: 4%;
+      overflow: hidden;
+  }
+
+    .manage_projects{
+        flex-direction: column;
+
+        height: 919px;
+
+    }
+
+    .get_the_app_header_and_buttons {
+        margin-top: 4%;
+    }
+
+    .get_the_app_buttons {
+        margin-top: 1%;
+    }
+
+
+    .manage_projects_right_1st_phone_img{
+        width: 22%;
+        height: 93%;
+    }
+
+    .manage_projects_right_2nd_phone_img{
+        margin-top: 8%;
+        /*margin-right: 5%;*/
+        width: 22%;
+    }
+    .manage_projects_right {
+        display: inline-block;
+        text-align: center;
+        margin-right: 0;
+    }
+
 }
 
 
