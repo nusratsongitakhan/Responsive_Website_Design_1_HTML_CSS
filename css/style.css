@@ -203,19 +203,14 @@ nav ul li a{
     align-items: center;
     padding: 0;
     position: static;
-    width: 1216px;
     height: 110px;
-    /*margin: 10px 0;*/
+    flex-flow: wrap;
     justify-content: center;
 }
 .logo_container img{
-    display: inline-block;
-    /*margin-top: 24px;*/
     margin-right:64px;
 }
-.airbnb_and_hubspot_and_google_and_microsoft{
-   display: flex;
-}
+
 .tailor_made_features_header_and_description{
     position: static;
     text-align: center;
@@ -243,8 +238,9 @@ h3{
     display: flex;
     justify-content: center;
     margin-bottom: 64px;
+    flex-flow: wrap;
 }
-.features .col-4{
+.features .features_item{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -252,8 +248,8 @@ h3{
     width: 384px;
     height: 152px;
     border-radius: 8px;
+    margin-bottom: 5%;
     flex: none;
-    margin: 0 30px;
 }
 .features h4{
     font-weight: 700;
@@ -264,6 +260,7 @@ h3{
     flex: none;
     margin-top: 24px;
 }
+
 .features p{
     position: static;
     width: 352px;
@@ -273,7 +270,7 @@ h3{
     line-height: 24px;
     text-align: center;
     color: #374151;
-    margin: 8px 0px;
+    margin-top: 2%;
 }
 .realStories{
     position: relative;
@@ -307,9 +304,6 @@ h3{
     height: 44%;
     margin-left: 45%;
     margin-top: 8%;
-    /*position: absolute;*/
-    /*left:320px;*/
-    /*top: 340px;*/
     background: #FFFFFF;
     box-shadow: 0 4px 8px -2px rgba(17, 24, 39, 0.1), 0 2px 4px -2px rgba(17, 24, 39, 0.06);
     border-radius: 8px;
@@ -595,14 +589,14 @@ flex-basis: 50%;
     color: #FFFFFF;
 }
 
-@media only screen and (max-width: 768px) and (min-width:376px){
+@media only screen and (max-width: 768px) and (min-width:376px) {
 
-    .first_page{
+    .first_page {
         height: 1240px;
         width: 100%;
     }
 
-    .headerAndPhoneImg{
+    .headerAndPhoneImg {
         flex-direction: column;
         margin-top: 15%;
     }
@@ -618,26 +612,26 @@ flex-basis: 50%;
         margin-top: 3%;
     }
 
-    .mobileImgDiv{
+    .mobileImgDiv {
         text-align: center;
     }
+    .logo_container {
+        height: 168px;
+    }
+    .logo_container img{
+        margin-right: 7%;
+        margin-left: 7%;
 
-    .logo_container{
-        height: 175px;
-        flex-direction: column;
-        row-gap: 25%;
-        margin-left: 15%;
     }
 
-  .sections{
-      margin-right: 4%;
-      margin-left: 4%;
-      overflow: hidden;
-  }
+    .sections {
+        margin-right: 4%;
+        margin-left: 4%;
+        overflow: hidden;
+    }
 
-    .manage_projects{
+    .manage_projects {
         flex-direction: column;
-
         height: 919px;
 
     }
@@ -651,28 +645,123 @@ flex-basis: 50%;
     }
 
 
-    .manage_projects_right_1st_phone_img{
-        width: 22%;
-        height: 93%;
+    .manage_projects_right_1st_phone_img {
+        width: 20%;
+        height: 88%;
+        margin-right: 7%;
     }
 
-    .manage_projects_right_2nd_phone_img{
-        margin-top: 8%;
-        /*margin-right: 5%;*/
-        width: 22%;
+    .manage_projects_right_2nd_phone_img {
+        margin-top: 9%;
+        margin-right: 0%;
+        width: 20%;
     }
+
     .manage_projects_right {
         display: inline-block;
         text-align: center;
         margin-right: 0;
     }
 
+    .achievement {
+        width: 100%;
+        height: 96%;
+        flex-direction: column;
+    }
+    .achievement_left{
+        flex-basis: 20%;
+    }
+    .achievement_right {
+        margin-left: 9%;
+        flex-basis: 80%;
+    }
+
+    .achievement_left h3 {
+        margin-top: 9%;
+    }
+
+    .features .features_item {
+       width:500px ;
+    }
+
+    .features p{
+      margin-top: 5%;
+        margin-bottom: 2%;
+    }
+
+    .realStories{
+        width: 100%;
+        height: 1165px;
+        flex-direction: column;
+
+
+    }
+    .realStories h3 {
+        padding-left: 5%;
+        padding-top: 4%;
+    }
+    .getInspired {
+        padding-top: 0%;
+        padding-left: 5%;
+    }
+
+    .quote {
+        top: 37px;
+        left: 43px;
+        opacity: 0.2;
+    }
+    .hubSpot_box {
+        width: 90%;
+        height: 50%;
+        margin-left: 5%;
+        margin-top: 0;
+        position: relative;
+        top: 58%;
+    }
+
+    .airbnb_box {
+        margin-left: 5%;
+        width: 90%;
+        height: 49%;
+        margin-top: 0%;
+        position: relative;
+        top: -60%;
+
+    }
+
+    .strapi {
+        margin-left: 5%;
+        width: 90%;
+        height: 45%;
+        margin-top: 0%;
+        position: relative;
+        top: -2%;
+    }
+
+    .realStories_logo_img {
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+    .small_quote {
+        margin-top: 2%;
+        margin-left: 3%;}
+
+    .realStories p {
+        margin: 0;
+    }
+    .realStories_description_text {
+        padding-left: 6%;}
+
+    .realStories h5 {
+        padding-left: 6%;}
+
+    .realStories small {
+        padding-left: 6%;}
+    }
 }
+/*@media only screen and (max-width: 375px) {*/
 
-
-@media only screen and (max-width: 375px) {
-
-}
+/*}*/
 
 
 /*.googlePlay_btn{*/
